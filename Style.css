@@ -9,14 +9,16 @@
 
 body {
     background-color: #d3d3d3;
-    margin-top:100px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
 }
 
 .container {
     width: 375px;
     background-color:#e9e9e9;
-    margin-top: 100px;
-    margin: auto;
     border-radius: 10px;
     
 }
@@ -26,6 +28,9 @@ header {
     color: #FFFFFF;
     height: 66px;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -34,8 +39,7 @@ h1 {
     line-height: 18px;;
     align-items: center;
     color: #e9e9e9;
-    text-align:center ;
-    padding-top: 25px;
+    
 }
 
 main {
@@ -112,11 +116,19 @@ section {
     border: 5px , solid , #181661 ;
     border-radius: 8px;
     background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
 }
 
 .currency-container {
-    text-align: center;
     padding: 10px;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+
 }
 
 .currency-name {
@@ -134,9 +146,7 @@ section {
 }
 
 .Arrow-png {
-    text-align: center;
-    margin: 15px auto ;
-    display: block;
+   
 }
 
 .name-select {
